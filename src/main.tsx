@@ -6,7 +6,7 @@ import { store } from "./app/store"
 import { BrowserRouter } from "react-router"
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/todolist-19">
     <Provider store={store}>
       <App />
     </Provider>
